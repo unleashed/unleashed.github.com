@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>El Obelisco</title>
+  <meta name="author" content="Alex Unleashed">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="Everything that has a beginning has an endThe OracleThe Matrix Revolutions Once again I&#8217;m starting a new blog. This is the beginning. Last one &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://unleashed.github.com">
+  <link rel="canonical" href="http://obelis.co">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="El Obelisco" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,9 +35,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">El Obelisco</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>Código, movidas y anécdotas varias de la vida</h2>
   
 </hgroup>
 
@@ -48,7 +48,7 @@
 </ul>
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:unleashed.github.com" />
+    <input type="hidden" name="q" value="site:obelis.co" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -63,6 +63,49 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/11/05/a-new-home-for-my-notes/">A New Home for My Notes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-05T04:48:00+01:00" pubdate data-updated="true">Nov 5<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>Everything that has a beginning has an end</p><footer><strong>The Oracle</strong><cite>The Matrix Revolutions</cite></footer></blockquote>
+
+
+<p>Once again I&#8217;m starting a new blog. This is the beginning. Last one lasted for about eight months with about five of inactivity. I probably have started <em>more</em> blogs than posts in those blogs, so it&#8217;s not that I care that much about my old rants. This time a number of things are different, and I hope those differences will&#8230; well, make a difference in my blogging and push forward in time that unavoidable end.</p>
+
+<p>I hereby want to note that I very much do not care about visits or comments, what I <em>do</em> care about is having some sort of place where I can go to and write as much as I want on any topic. Yeah, I sometimes happen to want to write things down and make them available to others. No, it&#8217;s not really all that often, but <em>having</em> a place does matter, so here it is&#8230;</p>
+
+<p>Welcome to my home!</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -75,11 +118,69 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2011/11/05/a-new-home-for-my-notes/">A new home for my notes</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/unleashed">@unleashed</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'unleashed',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("alexunleashed", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/alexunleashed" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @alexunleashed</a>
+  
 </section>
 
 
 
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/108917236057948959344?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -89,7 +190,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2011 - Your Name -
+  Copyright &copy; 2011 - Alex Unleashed -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

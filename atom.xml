@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://unleashed.github.com/atom.xml" rel="self"/>
-  <link href="http://unleashed.github.com/"/>
-  <updated>2011-11-05T05:33:20+01:00</updated>
-  <id>http://unleashed.github.com/</id>
+  <title><![CDATA[El Obelisco]]></title>
+  <link href="http://obelis.co/atom.xml" rel="self"/>
+  <link href="http://obelis.co/"/>
+  <updated>2011-11-05T05:50:31+01:00</updated>
+  <id>http://obelis.co/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Alex Unleashed]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A new home for my notes]]></title>
+    <link href="http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes/"/>
+    <updated>2011-11-05T04:48:00+01:00</updated>
+    <id>http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes</id>
+    <content type="html"><![CDATA[<blockquote><p>Everything that has a beginning has an end</p><footer><strong>The Oracle</strong><cite>The Matrix Revolutions</cite></footer></blockquote>
+
+
+<p>Once again I&#8217;m starting a new blog. This is the beginning. Last one lasted for about eight months with about five of inactivity. I probably have started <em>more</em> blogs than posts in those blogs, so it&#8217;s not that I care that much about my old rants. This time a number of things are different, and I hope those differences will&#8230; well, make a difference in my blogging and push forward in time that unavoidable end.</p>
+
+<p>I hereby want to note that I very much do not care about visits or comments, what I <em>do</em> care about is having some sort of place where I can go to and write as much as I want on any topic. Yeah, I sometimes happen to want to write things down and make them available to others. No, it&#8217;s not really all that often, but <em>having</em> a place does matter, so here it is&#8230;</p>
+
+<p>Welcome to my home!</p>
+]]></content>
+  </entry>
   
 </feed>
