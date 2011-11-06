@@ -1,6 +1,10 @@
 class String
   def titlecase
     small_words = %w(a an and as at but by en for if in of on or the to v v. via vs vs.)
+    # spanish
+    small_words += %w(un una el la los las lo en de por para del si no o a y e u)
+    # catalan, galician, ...
+    small_words += %w(unha per i els les)
 
     x = split(" ").map do |word|
       # note: word could contain non-word characters!
