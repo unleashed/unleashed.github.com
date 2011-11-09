@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[El Obelisco]]></title>
-  <link href="http://obelis.co/atom.xml" rel="self"/>
+  <title><![CDATA[Category: ruby | El Obelisco]]></title>
+  <link href="http://obelis.co/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://obelis.co/"/>
   <updated>2011-11-09T03:21:16+01:00</updated>
   <id>http://obelis.co/</id>
@@ -28,30 +28,29 @@
 <!--more-->
 
 
-<p>Una vez se estudian los distintos operadores se pueden construir tablas de verdad para resolver este problema, pero lo cierto es que el papel es demasiado caro como para ir llenándolo de tablas de verdad&#8230; Añadiendo a esto que no recordaba del todo bien el tema y que no me había refrescado la memoria con los vídeos disponibles, se me ocurrió hacer&#8230; bueno, alguna trampa. Sí recordé -tras muchos años de haberla estudiado- una relación básica de lógica proposicional que se me quedó grabada en el cerebro, y que a la postre fue muy útil para resolver los problemas con mi &#8221;<em>sistema</em>&#8221; sin tener que exprimirme mucho la cabeza: si una hipótesis es falsa, se puede extraer cualquier conclusión:</p>
+<p>Una vez se estudian los distintos operadores se pueden construir tablas de verdad para resolver este problema, pero lo cierto es que el papel es demasiado caro como para ir llenándolo de tablas de verdad... Añadiendo a esto que no recordaba del todo bien el tema y que no me había refrescado la memoria con los vídeos disponibles, se me ocurrió hacer... bueno, alguna trampa. Sí recordé -tras muchos años de haberla estudiado- una relación básica de lógica proposicional que se me quedó grabada en el cerebro, y que a la postre fue muy útil para resolver los problemas con mi "<em>sistema</em>" sin tener que exprimirme mucho la cabeza: si una hipótesis es falsa, se puede extraer cualquier conclusión:</p>
 
 <blockquote><p>p -> q &lt;=> ¬p v q</p></blockquote>
 
 <p>Esta relación indica que tanto <strong>p -> q</strong> como <strong>¬p v q</strong> son equivalentes, comparten la misma <a href="http://es.wikipedia.org/wiki/Tabla_de_verdad">tabla de verdad</a>.</p>
 
-<p>Con esto puedo expresar el operador -> (en el vídeo se usa &#8220;=>&#8221; en lugar de &#8220;->&#8221;, y &#8220;&lt;=>&#8221; en lugar de &#8221;<->&#8221;) en sencillas operaciones <strong>not</strong>, <strong>and</strong> y <strong>or</strong> de cualquier lenguaje de programación, y así escribir fácilmente las proposiciones que necesito comprobar, sin complicarme la vida. Y con un lenguaje de programación potente no tengo que empezar a desarrollar las proposiciones ni llevar los cálculos de una tabla de verdad. En mi caso, como buen rubyist, hago las pruebas en el entorno &#8220;irb&#8221; de Ruby:</p>
+<p>Con esto puedo expresar el operador -> (en el vídeo se usa "=>" en lugar de "->", y "&lt;=>" en lugar de "<->") en sencillas operaciones <strong>not</strong>, <strong>and</strong> y <strong>or</strong> de cualquier lenguaje de programación, y así escribir fácilmente las proposiciones que necesito comprobar, sin complicarme la vida. Y con un lenguaje de programación potente no tengo que empezar a desarrollar las proposiciones ni llevar los cálculos de una tabla de verdad. En mi caso, como buen rubyist, hago las pruebas en el entorno "irb" de Ruby:</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">tabla_de_verdad</span><span class="p">(</span><span class="o">&amp;</span><span class="n">block</span><span class="p">)</span>
-</span><span class='line'>  <span class="o">[</span><span class="kp">true</span><span class="p">,</span> <span class="kp">false</span><span class="o">].</span><span class="n">repeated_permutation</span><span class="p">(</span><span class="n">block</span><span class="o">.</span><span class="n">arity</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">block</span><span class="p">)</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">tabla_de_verdad</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">block</span><span class="p">)</span>
+</span><span class='line'>  <span class="o">[</span><span class="kp">true</span><span class="p">,</span> <span class="kp">false</span><span class="o">].</span><span class="n">repeated_permutation</span><span class="p">(</span><span class="n">block</span><span class="o">.</span><span class="n">arity</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">block</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>La simplicidad y elegancia de esa línea de código se puede admirar cuando se explica que con solamente eso se puede obtener la tabla de verdad para cualquier proposición, independientemente del número de predicados que contenga, de forma sencillísima. Más se sorprende uno si se compara cuánto tiempo y esfuerzo llevaría hacer algo similar en un lenguaje como Java o C++. Especial atención merece el hecho de que este método crea permutaciones con repetición de valores booleanos para el número de variables (predicados) que espera el bloque de código que se le pasa sin que tengamos que preocuparnos de especificar nada. Así nuestra única preocupación será construir la proposición lógica, ya que los diferentes casos de pruebas necesarios para toda la tabla de verdad son generados -y sus resultados recogidos- de forma automática.</p>
 
 <p>Ése es el tipo de características que hacen de este tipo de lenguajes herramientas ideales para estas tareas.</p>
 
-<p>Para poder comprobar las tablas de verdad, recordé que <strong>p <-> q</strong> en realidad requería comprobar la relación <strong>p -> q</strong> y luego la relación en sentido inverso, <strong>q -> p</strong>. Cuando el resultado es una tautología, se suele usar el símbolo &#8220;&lt;=>&#8221; (si, y solo si), y cuando solamente uno de los sentidos es una tautología se suele usar el símbolo &#8220;=>&#8221; (implica).</p>
+<p>Para poder comprobar las tablas de verdad, recordé que <strong>p <-> q</strong> en realidad requería comprobar la relación <strong>p -> q</strong> y luego la relación en sentido inverso, <strong>q -> p</strong>. Cuando el resultado es una tautología, se suele usar el símbolo "&lt;=>" (si, y solo si), y cuando solamente uno de los sentidos es una tautología se suele usar el símbolo "=>" (implica).</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -63,152 +62,62 @@
 </span><span class='line'>  <span class="c1"># (¬p v q) ^ (¬q v p)</span>
 </span><span class='line'>  <span class="p">(</span><span class="o">!</span><span class="nb">p</span> <span class="ow">or</span> <span class="n">q</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="o">!</span><span class="n">q</span> <span class="ow">or</span> <span class="nb">p</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
+<p>La expresión <strong>p <-> q</strong> comparte la misma tabla de verdad que <strong>p = q</strong>, y por lo tanto es equivalente (es, de hecho, la igualdad lógica, ya que "<strong>p</strong> implica <strong>q</strong> y <strong>q</strong> implica <strong>p</strong>"). No es necesario definir el código anterior si disponemos de un operador de igualdad lógica, como es el caso en Ruby con "==".</p>
 
-<p>La expresión <strong>p <-> q</strong> comparte la misma tabla de verdad que <strong>p = q</strong>, y por lo tanto es equivalente (es, de hecho, la igualdad lógica, ya que &#8221;<strong>p</strong> implica <strong>q</strong> y <strong>q</strong> implica <strong>p</strong>&#8221;). No es necesario definir el código anterior si disponemos de un operador de igualdad lógica, como es el caso en Ruby con &#8220;==&#8221;.</p>
+<p>De esta forma pude comprobar rápidamente las tablas de verdad del ejercicio y responder sin calcular nada, tan sólo con escribir las proposiciones con sus operadores en Ruby, sustituyendo "&lt;=>" por el operador de igualdad y "->" por la expresión indicada anteriormente:</p>
 
-<p>De esta forma pude comprobar rápidamente las tablas de verdad del ejercicio y responder sin calcular nada, tan sólo con escribir las proposiciones con sus operadores en Ruby, sustituyendo &#8220;&lt;=>&#8221; por el operador de igualdad y &#8220;->&#8221; por la expresión indicada anteriormente:</p>
-
-<figure class='code'><figcaption><span>(smoke -> fire) <-> (smoke v ¬fire)  </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>(smoke -> fire) <-> (smoke v ¬fire)  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">tabla_de_verdad</span> <span class="k">do</span> <span class="o">|</span><span class="n">smoke</span><span class="p">,</span> <span class="n">fire</span><span class="o">|</span>
 </span><span class='line'>  <span class="p">(</span><span class="o">!</span><span class="n">smoke</span> <span class="ow">or</span> <span class="n">fire</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">smoke</span> <span class="ow">or</span> <span class="o">!</span><span class="n">fire</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-
-
-<figure class='code'><figcaption><span>(smoke -> fire) <-> (¬smoke -> ¬fire)  </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>(smoke -> fire) <-> (¬smoke -> ¬fire)  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">tabla_de_verdad</span> <span class="k">do</span> <span class="o">|</span><span class="n">smoke</span><span class="p">,</span> <span class="n">fire</span><span class="o">|</span>
 </span><span class='line'>  <span class="p">(</span><span class="o">!</span><span class="n">smoke</span> <span class="ow">or</span> <span class="n">fire</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">smoke</span> <span class="ow">or</span> <span class="o">!</span><span class="n">fire</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-
-
-<figure class='code'><figcaption><span>(smoke -> fire) <-> (¬fire -> ¬smoke)  </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>(smoke -> fire) <-> (¬fire -> ¬smoke)  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">tabla_de_verdad</span> <span class="k">do</span> <span class="o">|</span><span class="n">smoke</span><span class="p">,</span> <span class="n">fire</span><span class="o">|</span>
 </span><span class='line'>  <span class="p">(</span><span class="o">!</span><span class="n">smoke</span> <span class="ow">or</span> <span class="n">fire</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">fire</span> <span class="ow">or</span> <span class="o">!</span><span class="n">smoke</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-
-
-<figure class='code'><figcaption><span>big v dumb v (big -> dumb)  </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>big v dumb v (big -> dumb)  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">tabla_de_verdad</span> <span class="k">do</span> <span class="o">|</span><span class="n">big</span><span class="p">,</span> <span class="n">dumb</span><span class="o">|</span>
 </span><span class='line'>  <span class="n">big</span> <span class="ow">or</span> <span class="n">dumb</span> <span class="ow">or</span> <span class="p">(</span><span class="o">!</span><span class="n">big</span> <span class="ow">or</span> <span class="n">dumb</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-
-
-<figure class='code'><figcaption><span>big ^ dumb <-> ¬(¬big v ¬dumb)  </span></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>big ^ dumb <-> ¬(¬big v ¬dumb)  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">tabla_de_verdad</span> <span class="k">do</span> <span class="o">|</span><span class="n">big</span><span class="p">,</span> <span class="n">dumb</span><span class="o">|</span>
 </span><span class='line'>  <span class="p">(</span><span class="n">big</span> <span class="ow">and</span> <span class="n">dumb</span><span class="p">)</span> <span class="o">==</span> <span class="o">!</span><span class="p">(</span><span class="o">!</span><span class="n">big</span> <span class="ow">or</span> <span class="o">!</span><span class="n">dumb</span><span class="p">)</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-<p>Se puede comprobar que usando el método &#8220;si_y_solo_si?&#8221; se obtienen los mismos resultados.</p>
+<p>Se puede comprobar que usando el método "si_y_solo_si?" se obtienen los mismos resultados.</p>
 
 <p>Lo importante de todo esto no es sólo el hecho de haberme ahorrado tener que andar con tablas de verdad y cálculos booleanos, cuya importancia es relativa, sino que en muy poco tiempo, debido a conocer un lenguaje que es apto para el prototipado rápido, dispongo de la capacidad de evaluar la tabla de verdad de cualquier proposición lógica, por complicada que sea  con un número arbitrario de predicados.</p>
 
 <p>Nótese que se podría mejorar fácilmente el código para asociar los valores de las variables a su resultado en la tabla y mostrar valores y resultado, como en las tablas de verdad sobre papel.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Los números del sorteo del 11/11/11]]></title>
-    <link href="http://obelis.co/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11/"/>
-    <updated>2011-11-06T22:55:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11</id>
-    <content type="html"><![CDATA[<p>Se acerca la curiosa fecha del día 11 del mes 11 del año 11 después del 2000, y la O.N.C.E. ha aprovechado para organizar un sorteo &#8220;extraordinario&#8221; en el que reparten un (1) premio suculento de 11 millones de euros y 11 premios de un (1) millón de euros cada uno.</p>
-
-<p>Ante la atención que ha atraído este sorteo, por el hecho de que se trata de un reparto de botes acumulados de otros sorteos y, especialmente, por la publicidad que se le ha hecho, me he leído el <a href="http://www.juegosonce.com/wmx/dicadi/pub/comojugar/infoextraordinariojuego.cfm">reglamento del sorteo</a>. Como sabéis, hay algunos sorteos en los cuales, por situaciones extraordinarias, es interesante comprar los boletos.</p>
-
-<p>¿Te compensa jugar a este sorteo?</p>
-
-<!--more-->
-
-
-<p>Os doy los datos:</p>
-
-<p>Cupones (5 euros cada uno):</p>
-
-<pre><code>- 100.000 números
-- 135 series por cada número
-</code></pre>
-
-<p>Total: 13.500.000 cupones</p>
-
-<p>Premios al cupón (no son acumulables, premios a cupones no vendidos no se reparten):</p>
-
-<pre><code>- 1 premio de 11.000.000 de euros.
-- 11 premios de 1.000.000 de euros.
-- 134 premios de 40.000 euros.
-- 1474 premios de 3.000 euros.
-- 1215 premios de 1.500 euros.
-- 12150 premios de 100 euros.
-- 121500 premios de 10 euros.
-- 1215000 reintegros de 5 euros.
-</code></pre>
-
-<p>Probabilidades:</p>
-
-<pre><code>- Perder tu dinero: 9 de cada 10 veces (89.989%)
-- Quedarte igual o peor que antes de comprar el cupón: casi todas (98.989%)
-- Ganar el súper premio de 11 milloncejos: 1 de 13.500.000 (0.00000007407%)
-- Ganar un premio que te haga **MUY** feliz (&gt;= 1M euros): 1 de 1.125.000 (0.0000008889%)
-- Ganar un premio que al menos te haga feliz (&gt;= 40k euros): 1 de 92.466 (0.00001081%)
-- Ganar al menos un premio pequeño (&gt;= 1500 euros): 1 de 4762 (0.00021%)
-- Ganar para al menos irte de mariscada (&gt;= 100 euros): 1 de 901 (0.00111%)
-- Ganar para al menos comer de menú barato (&gt;= 10 euros): 1 de 99 (0.01011%)
-</code></pre>
-
-<p>Datos de interés:</p>
-
-<pre><code>- Recaudación máxima: 67.500.000 euros
-- Máximo de premios repartidos: 42.109.500 euros
-- Porcentaje de reparto de premios: 62.384%
-- Beneficio medio de la O.N.C.E. por cupón: 1.88 euros
-</code></pre>
-
-<p>En resumen, por los datos obtenidos, comprar un cupón <strong>NO</strong> interesa. De hecho, a pesar del bote y de lo &#8220;extraordinario&#8221; del sorteo, el comprar un cupón supone una donación de 1.88 euros a la O.N.C.E., y la participación en un sorteo por valor de 3.12 euros con las probabilidades mencionadas más arriba.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A new home for my notes]]></title>
-    <link href="http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes/"/>
-    <updated>2011-11-05T04:48:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes</id>
-    <content type="html"><![CDATA[<blockquote><p>Everything that has a beginning has an end</p><footer><strong>The Oracle</strong><cite>The Matrix Revolutions</cite></footer></blockquote>
-
-
-<p>Once again I&#8217;m starting a new blog. This is the beginning. Last one lasted for about eight months with about five of inactivity. I probably have started <em>more</em> blogs than posts in those blogs, so it&#8217;s not that I care that much about my old rants. This time a number of things are different, and I hope those differences will&#8230; well, make a difference in my blogging and push forward in time that unavoidable end.</p>
-
-<p>I hereby want to note that I very much do not care about visits or comments, what I <em>do</em> care about is having some sort of place where I can go to and write as much as I want on any topic. Yeah, I sometimes happen to want to write things down and make them available to others. No, it&#8217;s not really all that often, but <em>having</em> a place does matter, so here it is&#8230;</p>
-
-<p>Welcome to my home!</p>
 ]]></content>
   </entry>
   
