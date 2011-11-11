@@ -3,7 +3,7 @@ layout: post
 title: "Cuando programar es mejor que trabajar"
 date: 2011-11-08 23:57
 comments: true
-categories: logica, ruby
+categories: [logica, ruby]
 ---
 Hay veces en las que me sorprendo de lo útil que es saber programar en lenguajes que te permiten hacer un prototipado rápido de una idea. Y sorprender es poco si además se trata de lenguajes generalistas.
 
