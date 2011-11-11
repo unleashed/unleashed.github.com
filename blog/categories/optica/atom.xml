@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: optica | El Obelisco]]></title>
+  <link href="http://obelis.co/blog/categories/optica/atom.xml" rel="self"/>
+  <link href="http://obelis.co/"/>
+  <updated>2011-11-11T15:23:20+01:00</updated>
+  <id>http://obelis.co/</id>
+  <author>
+    <name><![CDATA[Alex Unleashed]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[El desvanecimiento de Troxler]]></title>
+    <link href="http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler/"/>
+    <updated>2011-11-11T14:05:00+01:00</updated>
+    <id>http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler</id>
+    <content type="html"><![CDATA[<p>Que nuestros ojos a veces nos engañan, literalmente, es algo conocido. Pero cada vez conocemos mejor los mecanismos que producen ciertas falsas percepciones o ilusiones ópticas.</p>
+
+<p>El desvanecimiento de Troxler es una espectacular ilusión óptica muy fácilmente observable. Se guía por el mismo principio de filtrado de estímulos que hace que dejemos de notar algo con el tacto cuando lleva un cierto tiempo sin moverse. En el caso de este efecto, vemos como donde antes veíamos una imagen a color pasamos a verlo todo blanco, por el supuesto efecto de la adaptación de las neuronas de nuestro sistema visual al estímulo (o ausencia del mismo).</p>
+
+<p>Para observarlo, mirad la imagen fija que hay a continuación, enfocando durante unos segundos la cruz negra que hay en el centro. Por arte de magia, los ojos filtrarán el resto de la imagen dejándola en blanco. Incluso se puede parpadear o mover ligeramente la cabeza y mantener el efecto en acción.</p>
+
+<p><img class="center" src="/blog/images/troxler.jpg" width="500" height="628" title="El efecto Troxler" alt="Ilusión óptica del efecto Troxler"></p>
+
+<!--more-->
+
+
+<p>En la siguiente imagen podemos apreciar, mediante el mismo procedimiento, el mismo efecto junto con otros dos más:</p>
+
+<p><img class="center" src="/blog/images/lillac-chaser.gif" width="504" height="504" title="Lillac Chaser" alt="Ilusión óptica Lillac Chaser"></p>
+
+<p>La imagen corresponde a la ilusión visual bautizada como <a href="http://en.wikipedia.org/wiki/Lilac_chaser">Lillac Chaser</a>, donde vemos una serie de círculos lilas que desaparecen, uno de cada vez y por orden, cada cierto tiempo, produciendo un efecto de movimiento de un hueco que se denomina <a href="http://en.wikipedia.org/wiki/Beta_movement">movimiento beta</a>.</p>
+
+<p>Al enfocar durante unos segundos la cruz central, por el efecto del desvanecimiento de Troxler desaparecen los círculos lilas a la vez que, curiosamente, aparecen las trazas de un círculo verde -color complementario al lila- donde antes percibíamos el hueco en movimiento.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Troxler%27s_fading">El desvanecimiento de Troxler</a> fue descubierto a principios del siglo XIX.</p>
+]]></content>
+  </entry>
+  
+</feed>
