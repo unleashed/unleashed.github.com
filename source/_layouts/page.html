@@ -4,6 +4,7 @@ layout: default
 
 <div>
 <article role="article">
+  {% include post/adsense_hsky-gfx.html %}
   {% if page.title %}
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -30,6 +31,8 @@ layout: default
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
 {% endif %}
+<br />
+{% include post/adsense_hsky.html %}
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
