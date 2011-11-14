@@ -4,7 +4,7 @@ layout: default
 
 <div class="blog-index">
   {% assign index = true %}
-  <br /><center>{% include post/adsense_hsky_raw.html %}</center>
+  <br /><center>{% include post/adsense_hsky-gfx_raw.html %}</center>
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
@@ -20,7 +20,7 @@ layout: default
     <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}
   </div>
-  <br /><center>{% include post/adsense_hsky_raw.html %}</center>
+  <br /><center>{% include post/adsense_hsky-text_raw.html %}</center>
 </div>
 <aside class="sidebar">
   {% if site.blog_index_asides.size %}
