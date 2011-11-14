@@ -22,7 +22,7 @@
   {% if excerpted == 'true' %}
       <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
   {% endif %}
-      {% include post/adsense_hsky.html %}
+      {% include post/adsense_hsky_linkblock.html %}
     </footer>
 {% else %}
 <div class="entry-content">{{ content }}</div>
