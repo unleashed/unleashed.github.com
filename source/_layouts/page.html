@@ -25,6 +25,10 @@ layout: default
     </footer>
   {% endunless %}
 </article>
+<br />
+<center>
+{% include post/adsense_hsky_plus_linkblocks.html %}
+</center>
 {% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
@@ -32,7 +36,6 @@ layout: default
   </section>
 {% endif %}
 <br />
-{% include post/adsense_hsky.html %}
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
