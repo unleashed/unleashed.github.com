@@ -9,6 +9,6 @@ Desde los tiempos del mítico [Comanche: Maximum Overkill](http://en.wikipedia.o
 
 Esta idea simplificaba los cálculos de escenarios 3D por software, al construir objetos 3D con vóxels de la misma forma que uno construía figuras en 2D con píxels. A finales de los 90 esta tecnología fue rápidamente abandonada en favor de mundos tridimensionales mucho más detallados gracias a las capacidades de cálculo de tarjetas aceleradoras por hardware. Pero el lanzamiento una década después de un juego _indie_ llamado MineCraft haciendo un uso extensivo de la tecnología vóxel parece haber dado alas a los fans de esta tecnología, especialmente por el _look_ que tienen estos videojuegos.
 
-Hoy os traigo un vídeo sobre un nuevo videojuego llamado "Voxatron", un más que interesante título en pleno desarrollo que pinta muy bien. Juzgad por vosotros mismos.
+Hoy os traigo un vídeo sobre un nuevo videojuego llamado [Voxatron](http://www.voxatron.com), un más que interesante título en pleno desarrollo que pinta muy bien. Juzgad por vosotros mismos.
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/EKdRri5jSMs" frameborder="0" allowfullscreen></iframe>
