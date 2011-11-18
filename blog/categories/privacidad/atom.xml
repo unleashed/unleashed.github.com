@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: privacidad | El Obelisco]]></title>
+  <link href="http://obelis.co/blog/categories/privacidad/atom.xml" rel="self"/>
+  <link href="http://obelis.co/"/>
+  <updated>2011-11-18T05:13:12+01:00</updated>
+  <id>http://obelis.co/</id>
+  <author>
+    <name><![CDATA[Alex Unleashed]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bájate tus datos de Facebook y borra tu cuenta]]></title>
+    <link href="http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta/"/>
+    <updated>2011-11-18T04:36:00+01:00</updated>
+    <id>http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta</id>
+    <content type="html"><![CDATA[<p><strong>Y hazlo ya</strong>: ve a las opciones de configuración de la cuenta y solicita bajar tus datos. Tardará unas horas. En cuanto te lo notifiquen, bájate los datos a toda prisa. Después, no vuelvas a usar la cuenta, te recomiendo desactivarla o borrarla. ¿Para qué? Para que no lo lamentes. Aquí tienes mi historia, y no es la primera ni la última...</p>
+
+<p>Tras ser uno de los primeros usuarios de Facebook a este lado del Atlántico allá por el año 2006, y tras crearme una cuenta para mis amistades al año siguiente, a las que fui paulatinamente animando a registrarse, hoy no puedo más que sugerir a todo el mundo que <strong>descargue sus datos</strong> de Facebook y borre su cuenta lo antes posible, porque cuanto más pronto lo haga menos tendrá que lamentar.</p>
+
+<p><span class='pullquote-right' data-pullquote='dado el poder que Facebook ha conseguido reunir, está en condiciones de forzar a sus usuarios a lo que sea '>
+La moral de la historia es la siguiente: Facebook se declara en posesión de todos <strong>tus datos</strong> y de cuanto ocurre en su red social, así como de lo que sea que quiera juzgar hacer con sus usuarios y, dado el poder que Facebook ha conseguido reunir, está en condiciones de forzar a sus usuarios a lo que sea con tal de llevar a cabo sus tropelías hacia el derecho a la intimidad, la privacidad, y cuanto sea que hayas puesto de tu vida en ese lugar.
+</span></p>
+
+<!--more-->
+
+
+<p>En mi caso, ha decidido <strong>bloquearme</strong> el acceso a mi cuenta y pone como condición que declare mi nombre verdadero (el cómo ha juzgado que mi nombre no es verdadero es tema para discusión aparte) y que adjunte fotocopia de documento de identidad acreditativo (DNI o similar) para aprobar en una revisión manual el desbloqueo de la cuenta.</p>
+
+<p>Afortunadamente, a principios del mes de octubre decidí usar la nueva opción de bajarme una copia de mis datos en Facebook. Por si acaso pasase alguna cosa. Y poco más de un mes después, ha pasado. Premonitorio, supongo.</p>
+
+<p>Es un "lo tomas o lo dejas". Fijáos en cómo presentan el asunto:</p>
+
+<p><img class="center" src="/blog/images/facebook_pide_dni.png" width="569" height="566" title="Facebook exige el DNI para desbloquear tu cuenta" alt="Facebook exige el DNI para desbloquear tu cuenta"></p>
+
+<p>Google+ no me parece una alternativa seria, ya que han declarado en alguna ocasión políticas similares y también tienen antecedentes. Ante esto sólamente me queda recomendaros <a href="http://joindiaspora.com">Diaspora*</a>, que aunque no tiene tantas funcionalidades, es un proyecto que apunta alto y tiene ya la funcionalidad suficiente, como la que tenía ese Facebook en el que me registré hace unos años, pero sin todas las lacras que arrastra.</p>
+]]></content>
+  </entry>
+  
+</feed>
