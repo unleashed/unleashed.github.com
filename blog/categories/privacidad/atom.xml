@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: privacidad | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/privacidad/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/privacidad/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bájate tus datos de Facebook y borra tu cuenta]]></title>
-    <link href="http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta/"/>
     <updated>2011-11-18T04:36:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta</id>
+    <id>http://unleashed.github.com/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta</id>
     <content type="html"><![CDATA[<p><strong>Y hazlo ya</strong>: ve a las opciones de configuración de la cuenta y solicita bajar tus datos. Tardará unas horas. En cuanto te lo notifiquen, bájate los datos a toda prisa. Después, no vuelvas a usar la cuenta, te recomiendo desactivarla o borrarla. ¿Para qué? Para que no lo lamentes. Aquí tienes mi historia, y no es la primera ni la última...</p>
 
 <p>Tras ser uno de los primeros usuarios de Facebook a este lado del Atlántico allá por el año 2006, y tras crearme una cuenta para mis amistades al año siguiente, a las que fui paulatinamente animando a registrarse, hoy no puedo más que sugerir a todo el mundo que <strong>descargue sus datos</strong> de Facebook y borre su cuenta lo antes posible, porque cuanto más pronto lo haga menos tendrá que lamentar.</p>

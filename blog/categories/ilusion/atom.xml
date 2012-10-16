@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ilusion | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/ilusion/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/ilusion/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[El desvanecimiento de Troxler]]></title>
-    <link href="http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/11/el-desvanecimiento-de-troxler/"/>
     <updated>2011-11-11T14:05:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler</id>
+    <id>http://unleashed.github.com/blog/2011/11/11/el-desvanecimiento-de-troxler</id>
     <content type="html"><![CDATA[<p>Que nuestros ojos a veces nos engañan, literalmente, es algo conocido. Pero cada vez conocemos mejor los mecanismos que producen ciertas falsas percepciones o ilusiones ópticas.</p>
 
 <p>El desvanecimiento de Troxler es una espectacular ilusión óptica muy fácilmente observable. Se guía por el mismo principio de filtrado de estímulos que hace que dejemos de notar algo con el tacto cuando lleva un cierto tiempo sin moverse. En el caso de este efecto, vemos como donde antes veíamos una imagen a color pasamos a verlo todo blanco, por el supuesto efecto de la adaptación de las neuronas de nuestro sistema visual al estímulo (o ausencia del mismo).</p>

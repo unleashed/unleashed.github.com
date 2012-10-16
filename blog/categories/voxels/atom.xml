@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: voxels | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/voxels/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/voxels/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Voxatron, el resurgir de los vóxels]]></title>
-    <link href="http://obelis.co/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels/"/>
     <updated>2011-11-15T17:10:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels</id>
+    <id>http://unleashed.github.com/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels</id>
     <content type="html"><![CDATA[<p>Desde los tiempos del mítico <a href="http://en.wikipedia.org/wiki/Comanche_series">Comanche: Maximum Overkill</a> a principios de los 90 hasta los de <a href="http://en.wikipedia.org/wiki/Delta_Force_%28video_game%29">Delta Force</a> (ambos de NovaLogic) apenas pasaron unos años en los que pudimos observar la adopción de una técnica de representación gráfica de terrenos, escenarios y objetos en videojuegos basada en el concepto del <a href="http://en.wikipedia.org/wiki/Voxel">vóxel</a>, consistente en representar un píxel en tres dimensiones, pasando de un cuadrado a un cubo (píxel volumétrico).</p>
 
 <p>Esta idea simplificaba los cálculos de escenarios 3D por software, al construir objetos 3D con vóxels de la misma forma que uno construía figuras en 2D con píxels. A finales de los 90 esta tecnología fue rápidamente abandonada en favor de mundos tridimensionales mucho más detallados gracias a las capacidades de cálculo de tarjetas aceleradoras por hardware. Pero el lanzamiento una década después de un juego <em>indie</em> llamado MineCraft haciendo un uso extensivo de la tecnología vóxel parece haber dado alas a los fans de esta tecnología, especialmente por el <em>look</em> que tienen estos videojuegos.</p>

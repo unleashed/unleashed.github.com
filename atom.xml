@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[El Obelisco]]></title>
-  <link href="http://obelis.co/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ni se te ocurra ser informático]]></title>
-    <link href="http://obelis.co/blog/2011/12/31/ni-se-te-ocurra-ser-informatico/"/>
+    <link href="http://unleashed.github.com/blog/2011/12/31/ni-se-te-ocurra-ser-informatico/"/>
     <updated>2011-12-31T04:58:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/12/31/ni-se-te-ocurra-ser-informatico</id>
+    <id>http://unleashed.github.com/blog/2011/12/31/ni-se-te-ocurra-ser-informatico</id>
     <content type="html"><![CDATA[<p>Hoy un buen amigo informático ha renunciado a su profesión, aquella a la que ha dedicado gran parte de su vida, por pasión y vocación. <em>&#8220;Dejo esto&#8221;</em>, me dice, <em>&#8220;porque ya vale; voy a estudiar algo, quizás un master en economía. O algo de arquitectura, o derecho, o medicina&#8230;&#8221;</em>. &#8220;O mejor, sé intermediario&#8221;, le respondo yo. <em>&#8220;Mira, cualquier otra cosa, por poco que sea, y aunque no sea bueno y no me resulte interesante, porque con que sea respetado por la gente me ganaré mejor la vida, seré más feliz y se reducirán las frustraciones&#8221;</em>. Continúa: <em>&#8220;A partir de ahora el que me pregunte sobre informática se va a llevar una respuesta muy clara: ve y hazla tú, #censurado#&#8221;</em>.</p>
 
 <p>¿Por qué? Pues porque ser informático no sólo es tener <em>&#8220;una mierda de profesión que obliga a renunciar a una vida social saludable y al tiempo libre&#8221;</em>, sino que además significa realizar un trabajo <em>&#8220;muy sacrificado y extremadamente complejo y complicado, en constante renovación, y completamente minusvalorado y despreciado&#8221;</em>, porque es una profesión sin <em>&#8220;ningún respeto ni dignidad, ni en lo social, ni en lo económico&#8221;</em>.</p>
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[El mapa español del #yoemigro]]></title>
-    <link href="http://obelis.co/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro/"/>
     <updated>2011-11-21T02:35:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro</id>
+    <id>http://unleashed.github.com/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro</id>
     <content type="html"><![CDATA[<p>Después de los resultados de las elecciones del 20N mucha gente con muy buena formación y mejor juicio está planteándose, más seriamente que nunca aunque no por primera vez, emigrar de ese país que algunos llaman España. En estos momentos el hashtag #yoemigro va camino de ser <em>trending topic</em> en Twitter con motivo de la victoria del PP.</p>
 
 <p>A quienes aún tienen esperanzas de quedarse en España quizás les sea de utilidad para determinar el mejor destino dentro del país el siguiente mapa de la península ibérica teñido de colores según las mayorías por províncias de los diferentes partidos políticos:</p>
@@ -49,7 +49,7 @@
 <center><sub><sup>(Melilla e Islas Canarias no aparecen, pero son de color azul oscuro)</sup></sub></center>
 
 
-<p><img class="center" src="http://obelis.co/blog/images/mapa_electoral_20n.png" width="683" height="489" title="&#34;Mapa electoral del 20N&#34;" alt="&#34;Mapa electoral del 20N&#34;"></p>
+<p><img class="center" src="http://unleashed.github.com/blog/images/mapa_electoral_20n.png" width="683" height="489" title="&#34;Mapa electoral del 20N&#34;" alt="&#34;Mapa electoral del 20N&#34;"></p>
 
 <!--more-->
 
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bájate tus datos de Facebook y borra tu cuenta]]></title>
-    <link href="http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta/"/>
     <updated>2011-11-18T04:36:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta</id>
+    <id>http://unleashed.github.com/blog/2011/11/18/bajate-tus-datos-de-facebook-y-borra-tu-cuenta</id>
     <content type="html"><![CDATA[<p><strong>Y hazlo ya</strong>: ve a las opciones de configuración de la cuenta y solicita bajar tus datos. Tardará unas horas. En cuanto te lo notifiquen, bájate los datos a toda prisa. Después, no vuelvas a usar la cuenta, te recomiendo desactivarla o borrarla. ¿Para qué? Para que no lo lamentes. Aquí tienes mi historia, y no es la primera ni la última&#8230;</p>
 
 <p>Tras ser uno de los primeros usuarios de Facebook a este lado del Atlántico allá por el año 2006, y tras crearme una cuenta para mis amistades al año siguiente, a las que fui paulatinamente animando a registrarse, hoy no puedo más que sugerir a todo el mundo que <strong>descargue sus datos</strong> de Facebook y borre su cuenta lo antes posible, porque cuanto más pronto lo haga menos tendrá que lamentar.</p>
@@ -99,7 +99,7 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
 
 <p>Es un &#8220;lo tomas o lo dejas&#8221;. Fijáos en cómo presentan el asunto:</p>
 
-<p><img class="center" src="http://obelis.co/blog/images/facebook_pide_dni.png" width="569" height="566" title="Facebook exige el DNI para desbloquear tu cuenta" alt="Facebook exige el DNI para desbloquear tu cuenta"></p>
+<p><img class="center" src="http://unleashed.github.com/blog/images/facebook_pide_dni.png" width="569" height="566" title="Facebook exige el DNI para desbloquear tu cuenta" alt="Facebook exige el DNI para desbloquear tu cuenta"></p>
 
 <p>Google+ no me parece una alternativa seria, ya que han declarado en alguna ocasión políticas similares y también tienen antecedentes. Ante esto sólamente me queda recomendaros <a href="http://joindiaspora.com">Diaspora*</a>, que aunque no tiene tantas funcionalidades, es un proyecto que apunta alto y tiene ya la funcionalidad suficiente, como la que tenía ese Facebook en el que me registré hace unos años, pero sin todas las lacras que arrastra.</p>
 ]]></content>
@@ -107,9 +107,9 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
   
   <entry>
     <title type="html"><![CDATA[Voxatron, el resurgir de los vóxels]]></title>
-    <link href="http://obelis.co/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels/"/>
     <updated>2011-11-15T17:10:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels</id>
+    <id>http://unleashed.github.com/blog/2011/11/15/voxatron-el-resurgir-de-los-voxels</id>
     <content type="html"><![CDATA[<p>Desde los tiempos del mítico <a href="http://en.wikipedia.org/wiki/Comanche_series">Comanche: Maximum Overkill</a> a principios de los 90 hasta los de <a href="http://en.wikipedia.org/wiki/Delta_Force_%28video_game%29">Delta Force</a> (ambos de NovaLogic) apenas pasaron unos años en los que pudimos observar la adopción de una técnica de representación gráfica de terrenos, escenarios y objetos en videojuegos basada en el concepto del <a href="http://en.wikipedia.org/wiki/Voxel">vóxel</a>, consistente en representar un píxel en tres dimensiones, pasando de un cuadrado a un cubo (píxel volumétrico).</p>
 
 <p>Esta idea simplificaba los cálculos de escenarios 3D por software, al construir objetos 3D con vóxels de la misma forma que uno construía figuras en 2D con píxels. A finales de los 90 esta tecnología fue rápidamente abandonada en favor de mundos tridimensionales mucho más detallados gracias a las capacidades de cálculo de tarjetas aceleradoras por hardware. Pero el lanzamiento una década después de un juego <em>indie</em> llamado MineCraft haciendo un uso extensivo de la tecnología vóxel parece haber dado alas a los fans de esta tecnología, especialmente por el <em>look</em> que tienen estos videojuegos.</p>
@@ -123,23 +123,23 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
   
   <entry>
     <title type="html"><![CDATA[El desvanecimiento de Troxler]]></title>
-    <link href="http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/11/el-desvanecimiento-de-troxler/"/>
     <updated>2011-11-11T14:05:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/11/el-desvanecimiento-de-troxler</id>
+    <id>http://unleashed.github.com/blog/2011/11/11/el-desvanecimiento-de-troxler</id>
     <content type="html"><![CDATA[<p>Que nuestros ojos a veces nos engañan, literalmente, es algo conocido. Pero cada vez conocemos mejor los mecanismos que producen ciertas falsas percepciones o ilusiones ópticas.</p>
 
 <p>El desvanecimiento de Troxler es una espectacular ilusión óptica muy fácilmente observable. Se guía por el mismo principio de filtrado de estímulos que hace que dejemos de notar algo con el tacto cuando lleva un cierto tiempo sin moverse. En el caso de este efecto, vemos como donde antes veíamos una imagen a color pasamos a verlo todo blanco, por el supuesto efecto de la adaptación de las neuronas de nuestro sistema visual al estímulo (o ausencia del mismo).</p>
 
 <p>Para observarlo, mirad la imagen fija que hay a continuación, enfocando durante unos segundos la cruz negra que hay en el centro. Por arte de magia, los ojos filtrarán el resto de la imagen dejándola en blanco. Incluso se puede parpadear o mover ligeramente la cabeza y mantener el efecto en acción.</p>
 
-<p><img class="center" src="http://obelis.co/blog/images/troxler.jpg" width="500" height="628" title="El efecto Troxler" alt="Ilusión óptica del efecto Troxler"></p>
+<p><img class="center" src="http://unleashed.github.com/blog/images/troxler.jpg" width="500" height="628" title="El efecto Troxler" alt="Ilusión óptica del efecto Troxler"></p>
 
 <!--more-->
 
 
 <p>En la siguiente imagen podemos apreciar, mediante el mismo procedimiento, el mismo efecto junto con otros dos más:</p>
 
-<p><img class="center" src="http://obelis.co/blog/images/lillac-chaser.gif" width="504" height="504" title="Lillac Chaser" alt="Ilusión óptica Lillac Chaser"></p>
+<p><img class="center" src="http://unleashed.github.com/blog/images/lillac-chaser.gif" width="504" height="504" title="Lillac Chaser" alt="Ilusión óptica Lillac Chaser"></p>
 
 <p>La imagen corresponde a la ilusión visual bautizada como <a href="http://en.wikipedia.org/wiki/Lilac_chaser">Lillac Chaser</a>, donde vemos una serie de círculos lilas que desaparecen, uno de cada vez y por orden, cada cierto tiempo, produciendo un efecto de movimiento de un hueco que se denomina <a href="http://en.wikipedia.org/wiki/Beta_movement">movimiento beta</a>.</p>
 
@@ -151,9 +151,9 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
   
   <entry>
     <title type="html"><![CDATA[Cuando programar es mejor que trabajar]]></title>
-    <link href="http://obelis.co/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar/"/>
     <updated>2011-11-08T23:57:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar</id>
+    <id>http://unleashed.github.com/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar</id>
     <content type="html"><![CDATA[<p>Hay veces en las que me sorprendo de lo útil que es saber programar en lenguajes que te permiten hacer un prototipado rápido de una idea. Y sorprender es poco si además se trata de lenguajes generalistas.</p>
 
 <p>Ayer, en mi habitual (por acuciante falta de tiempo) <em>rush</em> para entregar a tiempo los deberes de la <a href="http://www.ai-class.com">#aiclass</a>, me encontré con algunos viejos temas que vi en la universidad. Tenía que hacer unos ejercicios sobre lógica proposicional, y determinar si las proposiciones eran <a href="http://es.wikipedia.org/wiki/Tautolog%C3%ADa">tautologías</a> (siempre ciertas), contradicciones (siempre falsas), o su valor dependía del valor que tomaran sus predicados por separado. Aquí podéis ver la descripción del problema de ayer en particular:</p>
@@ -274,9 +274,9 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
   
   <entry>
     <title type="html"><![CDATA[Los números del sorteo del 11/11/11]]></title>
-    <link href="http://obelis.co/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11/"/>
     <updated>2011-11-06T22:55:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11</id>
+    <id>http://unleashed.github.com/blog/2011/11/06/los-numeros-del-sorteo-del-11-slash-11-slash-11</id>
     <content type="html"><![CDATA[<p>Se acerca la curiosa fecha del día 11 del mes 11 del año 11 después del 2000, y la O.N.C.E. ha aprovechado para organizar un sorteo &#8220;extraordinario&#8221; en el que reparten un (1) premio suculento de 11 millones de euros y 11 premios de un (1) millón de euros cada uno.</p>
 
 <p>Ante la atención que ha atraído este sorteo, por el hecho de que se trata de un reparto de botes acumulados de otros sorteos y, especialmente, por la publicidad que se le ha hecho, me he leído el <a href="http://www.juegosonce.com/wmx/dicadi/pub/comojugar/infoextraordinariojuego.cfm">reglamento del sorteo</a>. Como sabéis, hay algunos sorteos en los cuales, por situaciones extraordinarias, es interesante comprar los boletos.</p>
@@ -334,9 +334,9 @@ La moral de la historia es la siguiente: Facebook se declara en posesión de tod
   
   <entry>
     <title type="html"><![CDATA[A new home for my notes]]></title>
-    <link href="http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/05/a-new-home-for-my-notes/"/>
     <updated>2011-11-05T04:48:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes</id>
+    <id>http://unleashed.github.com/blog/2011/11/05/a-new-home-for-my-notes</id>
     <content type="html"><![CDATA[<blockquote><p>Everything that has a beginning has an end</p><footer><strong>The Oracle</strong><cite>The Matrix Revolutions</cite></footer></blockquote>
 
 

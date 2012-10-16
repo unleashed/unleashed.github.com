@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: yoemigro | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/yoemigro/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/yoemigro/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[El mapa español del #yoemigro]]></title>
-    <link href="http://obelis.co/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro/"/>
     <updated>2011-11-21T02:35:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro</id>
+    <id>http://unleashed.github.com/blog/2011/11/21/el-mapa-espanol-del-number-yoemigro</id>
     <content type="html"><![CDATA[<p>Después de los resultados de las elecciones del 20N mucha gente con muy buena formación y mejor juicio está planteándose, más seriamente que nunca aunque no por primera vez, emigrar de ese país que algunos llaman España. En estos momentos el hashtag #yoemigro va camino de ser <em>trending topic</em> en Twitter con motivo de la victoria del PP.</p>
 
 <p>A quienes aún tienen esperanzas de quedarse en España quizás les sea de utilidad para determinar el mejor destino dentro del país el siguiente mapa de la península ibérica teñido de colores según las mayorías por províncias de los diferentes partidos políticos:</p>

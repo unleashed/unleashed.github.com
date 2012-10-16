@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: españa | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/españa/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/españa/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ni se te ocurra ser informático]]></title>
-    <link href="http://obelis.co/blog/2011/12/31/ni-se-te-ocurra-ser-informatico/"/>
+    <link href="http://unleashed.github.com/blog/2011/12/31/ni-se-te-ocurra-ser-informatico/"/>
     <updated>2011-12-31T04:58:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/12/31/ni-se-te-ocurra-ser-informatico</id>
+    <id>http://unleashed.github.com/blog/2011/12/31/ni-se-te-ocurra-ser-informatico</id>
     <content type="html"><![CDATA[<p>Hoy un buen amigo informático ha renunciado a su profesión, aquella a la que ha dedicado gran parte de su vida, por pasión y vocación. <em>"Dejo esto"</em>, me dice, <em>"porque ya vale; voy a estudiar algo, quizás un master en economía. O algo de arquitectura, o derecho, o medicina..."</em>. "O mejor, sé intermediario", le respondo yo. <em>"Mira, cualquier otra cosa, por poco que sea, y aunque no sea bueno y no me resulte interesante, porque con que sea respetado por la gente me ganaré mejor la vida, seré más feliz y se reducirán las frustraciones"</em>. Continúa: <em>"A partir de ahora el que me pregunte sobre informática se va a llevar una respuesta muy clara: ve y hazla tú, #censurado#"</em>.</p>
 
 <p>¿Por qué? Pues porque ser informático no sólo es tener <em>"una mierda de profesión que obliga a renunciar a una vida social saludable y al tiempo libre"</em>, sino que además significa realizar un trabajo <em>"muy sacrificado y extremadamente complejo y complicado, en constante renovación, y completamente minusvalorado y despreciado"</em>, porque es una profesión sin <em>"ningún respeto ni dignidad, ni en lo social, ni en lo económico"</em>.</p>

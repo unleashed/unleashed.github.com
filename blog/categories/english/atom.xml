@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: English | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/english/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/english/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A new home for my notes]]></title>
-    <link href="http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/05/a-new-home-for-my-notes/"/>
     <updated>2011-11-05T04:48:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/05/a-new-home-for-my-notes</id>
+    <id>http://unleashed.github.com/blog/2011/11/05/a-new-home-for-my-notes</id>
     <content type="html"><![CDATA[<p><blockquote><p>Everything that has a beginning has an end</p><footer><strong>The Oracle</strong><cite>The Matrix Revolutions</cite></footer></blockquote></p>
 
 <p>Once again I'm starting a new blog. This is the beginning. Last one lasted for about eight months with about five of inactivity. I probably have started <em>more</em> blogs than posts in those blogs, so it's not that I care that much about my old rants. This time a number of things are different, and I hope those differences will... well, make a difference in my blogging and push forward in time that unavoidable end.</p>

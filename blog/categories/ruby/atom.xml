@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ruby | El Obelisco]]></title>
-  <link href="http://obelis.co/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://obelis.co/"/>
+  <link href="http://unleashed.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://unleashed.github.com/"/>
   <updated>2011-12-31T05:07:27+01:00</updated>
-  <id>http://obelis.co/</id>
+  <id>http://unleashed.github.com/</id>
   <author>
     <name><![CDATA[Alex Unleashed]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cuando programar es mejor que trabajar]]></title>
-    <link href="http://obelis.co/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar/"/>
+    <link href="http://unleashed.github.com/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar/"/>
     <updated>2011-11-08T23:57:00+01:00</updated>
-    <id>http://obelis.co/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar</id>
+    <id>http://unleashed.github.com/blog/2011/11/08/cuando-programar-es-mejor-que-trabajar</id>
     <content type="html"><![CDATA[<p>Hay veces en las que me sorprendo de lo útil que es saber programar en lenguajes que te permiten hacer un prototipado rápido de una idea. Y sorprender es poco si además se trata de lenguajes generalistas.</p>
 
 <p>Ayer, en mi habitual (por acuciante falta de tiempo) <em>rush</em> para entregar a tiempo los deberes de la <a href="http://www.ai-class.com">#aiclass</a>, me encontré con algunos viejos temas que vi en la universidad. Tenía que hacer unos ejercicios sobre lógica proposicional, y determinar si las proposiciones eran <a href="http://es.wikipedia.org/wiki/Tautolog%C3%ADa">tautologías</a> (siempre ciertas), contradicciones (siempre falsas), o su valor dependía del valor que tomaran sus predicados por separado. Aquí podéis ver la descripción del problema de ayer en particular:</p>
